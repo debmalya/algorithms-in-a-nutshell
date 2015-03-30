@@ -1,4 +1,9 @@
 Preface
 -------
 - Can I use algorithm X to solve my problem?  If so, how do I implement it?
+- Recommends the "1,180-page bible on algorithms", Introduction to Algorithms by Cormen et al. (2001)
+
+Principle: Use Real Code, Not Pseudocode
+Principle: Separate the Algorithm from the Problem Being Solved
+- Quote: "Premature optimization is the root of all evil" - C. A. R. Hoare
 
