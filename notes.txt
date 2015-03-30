@@ -1,9 +1,45 @@
 Preface
--------
+=======
 - Can I use algorithm X to solve my problem?  If so, how do I implement it?
 - Recommends the "1,180-page bible on algorithms", Introduction to Algorithms by Cormen et al. (2001)
 
 Principle: Use Real Code, Not Pseudocode
+
 Principle: Separate the Algorithm from the Problem Being Solved
 - Quote: "Premature optimization is the root of all evil" - C. A. R. Hoare
+
+Principle: Introduce Just Enough Mathematics
+
+Principle: Support Mathematical Analysis Empirically
+
+Audience
+ - Recommended Reading - "The Art of Computer Programming", Volumes 1-3 by Donald Knuth
+
+
+Chapter 1 - Algorithms Matter
+=============================
+
+Understand the Problem
+Experiment if Necessary
+Algorithms to the Rescue
+- Balancing Binary trees
+Side Story
+- Investigating the behavior of malloc() in C
+The Moral of the Story
+- The ability to choose an acceptable algorithm for your needs is a critical skill that any good software developer should have.
+
+
+Chapter 2 - The Mathematics of Algorithms
+=========================================
+
+- You are trying to predict which algorithm will be fastest for a particular data set on a particular platform.
+
+Size of a Problem Instance
+- Designing efficient algorithms often starts by selecting the proper data structures in which to represent the problem to be solved.
+
+Rate of Growth of Functions
+- Represent the rate of growth of a function's execution time as a function of the size of the imput problem instance.
+- Constants matter
+- The size of n is not always large
+
 
