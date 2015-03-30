@@ -1,0 +1,4 @@
+Preface
+-------
+- Can I use algorithm X to solve my problem?  If so, how do I implement it?
+
