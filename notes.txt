@@ -62,7 +62,16 @@ Performance Families
 	- Exponential
 	
 Discussion 0: Constant Behavior
+
 Discussion 1: Log n Behavior
+- There's a typo in the while loop
+
+Discussion 2: Sublinear O(n^d) Behavior for d<1
+
+Discussion 3: Linear Performance
+
+Discussion 4: Linear Performance
+
 
 
 
