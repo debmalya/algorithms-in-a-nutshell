@@ -42,4 +42,28 @@ Rate of Growth of Functions
 - Constants matter
 - The size of n is not always large
 
+Analysis in the Best, Average, and Worst Cases
+
+Worst-Case
+- In some instances, the worst case may be unlikely enough that it can be ignored in favor of the average case
+- In other instances, the worst case may be unacceptable. Open-heart surgery application example
+
+Average-Case
+
+Best-Case
+
+Performance Families
+	- Constant
+	- Logarithmic
+	- Sublinear
+	- Linear
+	- n log (n)
+	- Quadratic
+	- Exponential
+	
+Discussion 0: Constant Behavior
+Discussion 1: Log n Behavior
+
+
+
 
