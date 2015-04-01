@@ -69,10 +69,11 @@ Discussion 1: Log n Behavior
 Discussion 2: Sublinear O(n^d) Behavior for d<1
 
 Discussion 3: Linear Performance
+- LinearAddition
+- LinearAdditionLast
 
-Discussion 4: Linear Performance
+Discussion 4: n log n Performance
+ - Divide and Conquer
 
-
-
-
-
+Discussion 5a: Quadratic Performance
+ - QuadraticMultiplication (elementary school algorithm)
