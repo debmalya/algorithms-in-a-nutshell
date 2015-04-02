@@ -1,4 +1,4 @@
-package com.erj.practice.misc;
+package com.erj.practice.misc.math;
 
 public class LinearAdditionLast {
 	public static void last(int[] a, int[] b, int[] sum){

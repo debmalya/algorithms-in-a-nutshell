@@ -1,4 +1,4 @@
-package com.erj.practice.misc;
+package com.erj.practice.misc.math;
 
 public class BinaryGuessing {
 	

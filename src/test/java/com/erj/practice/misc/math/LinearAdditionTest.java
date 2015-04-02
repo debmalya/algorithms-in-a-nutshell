@@ -1,8 +1,10 @@
-package com.erj.practice.misc;
+package com.erj.practice.misc.math;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.erj.practice.misc.math.LinearAddition;
 
 public class LinearAdditionTest {
 

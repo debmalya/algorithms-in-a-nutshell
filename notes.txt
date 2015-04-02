@@ -77,3 +77,7 @@ Discussion 4: n log n Performance
 
 Discussion 5a: Quadratic Performance
  - QuadraticMultiplication (elementary school algorithm)
+ - The primary indicator for quadratic performance behavior is a nested loop structure
+ 
+Discussion 5b: Less Obvious Performance Computations
+ - 
