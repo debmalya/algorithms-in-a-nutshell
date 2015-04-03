@@ -80,4 +80,7 @@ Discussion 5a: Quadratic Performance
  - The primary indicator for quadratic performance behavior is a nested loop structure
  
 Discussion 5b: Less Obvious Performance Computations
- - 
+
+Mix of Operations
+
+One Final Point
