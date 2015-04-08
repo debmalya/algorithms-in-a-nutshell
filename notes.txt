@@ -84,3 +84,17 @@ Discussion 5b: Less Obvious Performance Computations
 Mix of Operations
 
 One Final Point
+
+
+Chapter 3 - Patterns and Domains
+=========================================
+
+There are several reasons why programmers continue to write the same solutions for problems from scratch.
+1.  The programmer doesn't realize that the problem has already been solved.
+2.  It's not clear that the existing code will actually fit the specific problem facing the programmer.
+3.  It's not easy to find code that really solves the problem at hand or code that can be easily modified to solve that problem.
+
+Patterns: A Communication Language
+ - A design pattern is a proven solution to a commonly occurring problem.
+ - Armed with a set of design patterns in your toolbox, you are on your way to becoming a master craftsman of software design.
+ 
