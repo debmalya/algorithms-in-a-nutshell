@@ -97,4 +97,42 @@ There are several reasons why programmers continue to write the same solutions f
 Patterns: A Communication Language
  - A design pattern is a proven solution to a commonly occurring problem.
  - Armed with a set of design patterns in your toolbox, you are on your way to becoming a master craftsman of software design.
+ - Algorithms are, in fact, proven solutions to known problems, so they fit our definition of a pattern.
+ 
+ The Form of an Algorithm Pattern
+ 
+ Algorithm Pattern Format
+ 
+ Pseudocode Pattern Format
+ 
+ Design Format
+ 
+ Empirical Evaluation Format
+ 
+ Domains and Algorithms
+ - Algorithms, like applications, have domains.
+ 	- Examples: Search, Graph Traversal, Artificial Intelligence
+ 	
+ Floating-Point Computations
+ 
+ Rounding Error 
+ - With internal floating point numbers represented in binary, there will be subtle rounding errors.  
+ - As a result, floating-point values are only approximate.
+ 
+ Comparing Values
+ - Is it truly the case that these two floating-point numbers must be exactly equal?
+ - Sometimes, however, it may be the case that x≈y and y≈z, but it might not be the case that x≈z.  This breaks the principle of Transitivity and makes it really challenging to write correct code.
+ 
+ Special Quantities
+ - Possitive and Negative infinity
+ - NaN
+ - Positive zero
+ - Negative zero
+ - In Java, 1/0.0 is positive infinity
+ - In Java, 1/0 throws a java.lang.ArithmeticException
+ 
+ Performance
+ 
+ Manual Memory Allocation
+ 
  
