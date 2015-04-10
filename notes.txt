@@ -135,4 +135,41 @@ Patterns: A Communication Language
  
  Manual Memory Allocation
  
+ Choosing a Programming Language
+ - Garbage collection versus manual memory allocation
+ - Bytecode interpretation versus compiled code
+ - Dynamic versus static typing
  
+ 
+ Chapter 4 - Sorting Algorithms
+ ==============================
+ 
+ - Numerous computations and tasks become simple by properly sorting information in advance.
+ - The search for efficient sorting algorithms dominated the early days of computing.
+ 
+Terminology
+ 
+Representation
+ - There are different ways to encode the problem set
+ 	- Example: 
+ 		[eagle, cat, ant, dot, ball]
+ 		[e,a,g,l,e,c,a,t,¬,¬,a,n,t,¬,¬,d,o,t,¬,¬,b,a,l,l,¬]
+ 
+Comparable Elements
+ 
+Stable sorting
+  - When elements are equal, it may be important to maintain their relative ordering in the sorted set.
+  	- Example: sort by first starting letter only - 
+  		[cat, dog, rat, doll] is sorted to [cat, dog, doll, rat] - 'dog' and 'doll' are equal, but they keep the same relative ordering in the new sorted collection
+  	- Algorithms that exhibit this behavior are said to be "stable".
+ 
+Analysis Techniques
+ - A fundamental result in computer science is that no algorithm that sorts by comparing elements can do better than O(n log n) performance in average or worst case.
+ - Given n items, there are n! permutations of these elements.
+ 
+Insertion Sort
+	- Context - Use INSERTION SORT when you have a small number of elements to sort or the elements in the initial collection are already "nearly sorted." 
+ 	- Performance
+ 		- Best: O(n)
+ 		- Average: O(n^2)
+ 		- Worst: O(n^2)
