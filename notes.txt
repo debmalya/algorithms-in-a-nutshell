@@ -173,3 +173,8 @@ Insertion Sort
  		- Best: O(n)
  		- Average: O(n^2)
  		- Worst: O(n^2)
+ 	- Forces
+ 	- Consequences
+ 		- Works better as the "mostly sortedness" of the original collection improves.
+ 	- Analysis
+ 		- 
