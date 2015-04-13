@@ -167,7 +167,7 @@ Analysis Techniques
  - A fundamental result in computer science is that no algorithm that sorts by comparing elements can do better than O(n log n) performance in average or worst case.
  - Given n items, there are n! permutations of these elements.
  
-Insertion Sort
+INSERTION SORT
 	- Context - Use INSERTION SORT when you have a small number of elements to sort or the elements in the initial collection are already "nearly sorted." 
  	- Performance
  		- Best: O(n)
@@ -177,4 +177,11 @@ Insertion Sort
  	- Consequences
  		- Works better as the "mostly sortedness" of the original collection improves.
  	- Analysis
- 		- 
+ 		- When the collection is already sorted, this algorithm takes O(n).
+ 			- This is the only algorithm based on comparisons discussed that has this behavior.
+ 		- The efficiency of INSERTION SORT increases when duplicate items are present.
+ 		- Average case O(n^2)
+ 			- As the array size doubles, the performance time approximately quadruples.
+
+MEDIAN SORT
+	- Divide and conquer
