@@ -185,3 +185,16 @@ INSERTION SORT
 
 MEDIAN SORT
 	- Divide and conquer
+
+	- Performance
+		- Best: O(n log n)
+		- Average: O(n log n)
+		- Worst: O(n^2)
+		
+	- Any sorting algorithm that depends upon partition must suffer from having a worst-case performance degrade to O(n^2)
+	- This selection algorithm is known as the Blum-Floyd-Pratt-Rivest-Tarjan (BFPRT) algorithm - This merits more investigation on my part.  I skimmed.
+	
+QUICKSORT
+	- Best: O(n log n)
+	- Average: O(n log n)
+	- Worst: O(n^2)
