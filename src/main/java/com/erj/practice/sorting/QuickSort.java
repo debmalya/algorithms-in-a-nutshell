@@ -1,5 +1,7 @@
 package com.erj.practice.sorting;
 
+import com.erj.practice.util.ArrayChecker;
+
 public class QuickSort implements Sortable {
 
 	private int[] array;
@@ -38,6 +40,7 @@ public class QuickSort implements Sortable {
 				j--;
 			}
 		}
+		System.out.println("Sorted yet?: " + ArrayChecker.isSorted(array));
 		if(lowIndex < j){
 			lowRecursiveCalls++;
 			quickSort(lowIndex, j);

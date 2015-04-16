@@ -198,3 +198,16 @@ QUICKSORT
 	- Best: O(n log n)
 	- Average: O(n log n)
 	- Worst: O(n^2)
+	
+	- There are some problems with this implementation.  The number of recursive calls seems too high.
+	
+SELECTION SORT
+	- The slowest of all the sorting algorithms described in this chapter.  
+	
+HEAP SORT
+	- A heap is a binary tree whose structure ensures two properties:
+		1.  Shape property - A leaf node at depth k>0 can exist only if all 2^(k-1) nodes at depth k-1 exist.  Nodes are added from left to right.
+		2.  Heap property - Each node in the tree contains a value greater than or equal to either of its two children, if it has any.
+	- There's something about the pseudocode that seems to be overkill.
+	- Not a stable sort
+	- O(n log n)      
