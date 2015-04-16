@@ -215,4 +215,7 @@ HEAP SORT
 COUNTING SORT
 	- O(n)
 	- Pretty slick.  I think I remember working through this in an interview.
-	- Counting Sort succeeds only because the k values form a total ordering for the elements.      
+	- Counting Sort succeeds only because the k values form a total ordering for the elements.
+	
+BUCKET SORT
+	- I don't like my implementation of this, but it works.  
