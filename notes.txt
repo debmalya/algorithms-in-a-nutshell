@@ -210,4 +210,9 @@ HEAP SORT
 		2.  Heap property - Each node in the tree contains a value greater than or equal to either of its two children, if it has any.
 	- There's something about the pseudocode that seems to be overkill.
 	- Not a stable sort
-	- O(n log n)      
+	- O(n log n)
+	
+COUNTING SORT
+	- O(n)
+	- Pretty slick.  I think I remember working through this in an interview.
+	- Counting Sort succeeds only because the k values form a total ordering for the elements.      
