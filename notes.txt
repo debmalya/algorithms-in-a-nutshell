@@ -218,4 +218,20 @@ COUNTING SORT
 	- Counting Sort succeeds only because the k values form a total ordering for the elements.
 	
 BUCKET SORT
-	- I don't like my implementation of this, but it works.  
+	- I don't like my implementation of this, but it works.
+
+Criteria for Choosing a Sorting Algorithm
+
+Chapter 5 - Searching
+=====================
+
+- Three fundamental queries:
+	1.  Existence: Does the collection contain a target element?
+	2	Retrieval: Return the element in the collection that matches the target?
+	3.  Associative lookup:  Return information associated in the collection with the target key
+	
+- There are costs to consider when maintaining a sorted collection.
+
+SEQUENTIAL SEARCH
+	Consequences - If the predominant result of a search is false, you may want to consider a different search algorithm, even when the collection is relatively small.  
+

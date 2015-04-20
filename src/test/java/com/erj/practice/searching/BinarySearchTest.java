@@ -4,12 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class SequentialSearchTest {
+public class BinarySearchTest {
 
 	@Test
 	public void found() {
-		Searchable sequentialSearch = new SequentialSearch();
-		int[] searchField = {0,4,7,2};
+		Searchable sequentialSearch = new BinarySearch();
+		int[] searchField = {0,2,4,7};
 		int target = 4;
 		
 		assertTrue(sequentialSearch.search(target, searchField));
@@ -17,15 +17,15 @@ public class SequentialSearchTest {
 	
 	@Test
 	public void notFound() {
-		Searchable sequentialSearch = new SequentialSearch();
-		int[] searchField = {0,5,7,2};
+		Searchable sequentialSearch = new BinarySearch();
+		int[] searchField = {0,2,5,7};
 		int target = 4;
 		
 		assertFalse(sequentialSearch.search(target, searchField));
 	}
 	@Test
 	public void largerSearchField(){
-		Searchable sequentialSearch = new SequentialSearch();
+		Searchable sequentialSearch = new BinarySearch();
 		int size = 100000000;
 		int[] searchField = new int[size];
 		
