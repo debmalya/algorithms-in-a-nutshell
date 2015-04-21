@@ -10,7 +10,7 @@ public class BinarySearch implements Searchable {
 		while(lowIndex <= highIndex){
 			int searchIndex = (lowIndex+highIndex)/2;
 			if(field[searchIndex] == target){
-				System.out.println("Binary Search - Comparisons: " + comparisons);
+				System.out.println("Binary Search("+field.length+") - Comparisons: " + comparisons);
 				return true;
 			}else if(target < field[searchIndex]){
 				highIndex = searchIndex - 1;
@@ -19,7 +19,7 @@ public class BinarySearch implements Searchable {
 			}
 			comparisons++;
 		}
-		System.out.println("Binary Search - Comparisons: " + comparisons);
+		System.out.println("Binary Search("+field.length+") - Comparisons: " + comparisons);
 		return false;
 	}
 

@@ -235,3 +235,6 @@ Chapter 5 - Searching
 SEQUENTIAL SEARCH
 	Consequences - If the predominant result of a search is false, you may want to consider a different search algorithm, even when the collection is relatively small.  
 
+BINARY SEARCH
+
+HASH-BASED SEARCH

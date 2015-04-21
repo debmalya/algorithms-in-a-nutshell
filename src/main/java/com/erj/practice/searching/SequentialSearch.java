@@ -9,11 +9,11 @@ public class SequentialSearch implements Searchable {
 		for(int i = 0; i<searchField.length; i++){
 			comparisons++;
 			if(target == searchField[i]){
-				System.out.println("Sequential Search - Comparisons: " + comparisons);
+				System.out.println("Sequential Search("+searchField.length+") - Comparisons: " + comparisons);
 				return true;
 			}
 		}
-		System.out.println("Sequential Search - Comparisons: " + comparisons);
+		System.out.println("Sequential Search("+searchField.length+") - Comparisons: " + comparisons);
 		return false;
 	}
 }

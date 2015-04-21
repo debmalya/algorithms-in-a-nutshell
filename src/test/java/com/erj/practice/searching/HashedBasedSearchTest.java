@@ -4,12 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class BinarySearchTest {
+public class HashedBasedSearchTest {
 
 	@Test
 	public void found() {
-		Searchable search = new BinarySearch();
-		int[] searchField = {0,2,4,7};
+		Searchable search = new HashBasedSearch();
+		int[] searchField = {0,4,7,2};
 		int target = 4;
 		
 		assertTrue(search.search(target, searchField));
@@ -17,15 +17,15 @@ public class BinarySearchTest {
 	
 	@Test
 	public void notFound() {
-		Searchable search = new BinarySearch();
-		int[] searchField = {0,2,5,7};
+		Searchable search = new HashBasedSearch();
+		int[] searchField = {0,5,7,2};
 		int target = 4;
 		
 		assertFalse(search.search(target, searchField));
 	}
 	@Test
 	public void largerSearchField(){
-		Searchable search = new BinarySearch();
+		Searchable search = new HashBasedSearch();
 		int size = 100000000;
 		int[] searchField = new int[size];
 		
